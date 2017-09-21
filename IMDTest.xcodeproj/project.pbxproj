@@ -46,7 +46,7 @@
 		8C91CC74A11B185C511802CA /* Pods_IMDTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15641CDE9874F0FF0BA3E9D /* Pods-IMDTest-IMDTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDTest-IMDTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMDTest-IMDTestTests/Pods-IMDTest-IMDTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B47F5C8A62BD5944D4A9F890 /* Pods_IMDTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C552D8771F6CC48400C3D520 /* IMD Global PSI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMD Global PSI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C552D8771F6CC48400C3D520 /* IMDTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMDTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C552D87A1F6CC48400C3D520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C552D87C1F6CC48400C3D520 /* PSIMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSIMapVC.swift; sourceTree = "<group>"; };
 		C552D87F1F6CC48400C3D520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		C552D8781F6CC48400C3D520 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C552D8771F6CC48400C3D520 /* IMD Global PSI.app */,
+				C552D8771F6CC48400C3D520 /* IMDTest.app */,
 				C552D88B1F6CC48400C3D520 /* IMDTestTests.xctest */,
 			);
 			name = Products;
@@ -212,9 +212,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C552D8761F6CC48400C3D520 /* IMD Global PSI */ = {
+		C552D8761F6CC48400C3D520 /* IMDTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C552D8941F6CC48400C3D520 /* Build configuration list for PBXNativeTarget "IMD Global PSI" */;
+			buildConfigurationList = C552D8941F6CC48400C3D520 /* Build configuration list for PBXNativeTarget "IMDTest" */;
 			buildPhases = (
 				6B15A959B3301D5AE2B7E999 /* [CP] Check Pods Manifest.lock */,
 				C552D8731F6CC48400C3D520 /* Sources */,
@@ -227,9 +227,9 @@
 			);
 			dependencies = (
 			);
-			name = "IMD Global PSI";
+			name = IMDTest;
 			productName = IMDTest;
-			productReference = C552D8771F6CC48400C3D520 /* IMD Global PSI.app */;
+			productReference = C552D8771F6CC48400C3D520 /* IMDTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C552D88A1F6CC48400C3D520 /* IMDTestTests */ = {
@@ -287,7 +287,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C552D8761F6CC48400C3D520 /* IMD Global PSI */,
+				C552D8761F6CC48400C3D520 /* IMDTest */,
 				C552D88A1F6CC48400C3D520 /* IMDTestTests */,
 			);
 		};
@@ -440,7 +440,7 @@
 /* Begin PBXTargetDependency section */
 		C552D88D1F6CC48400C3D520 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C552D8761F6CC48400C3D520 /* IMD Global PSI */;
+			target = C552D8761F6CC48400C3D520 /* IMDTest */;
 			targetProxy = C552D88C1F6CC48400C3D520 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -626,7 +626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C552D8941F6CC48400C3D520 /* Build configuration list for PBXNativeTarget "IMD Global PSI" */ = {
+		C552D8941F6CC48400C3D520 /* Build configuration list for PBXNativeTarget "IMDTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C552D8951F6CC48400C3D520 /* Debug */,

@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C552D8761F6CC48400C3D520"
-               BuildableName = "IMD Global PSI.app"
-               BlueprintName = "IMD Global PSI"
+               BuildableName = "IMDTest.app"
+               BlueprintName = "IMDTest"
                ReferencedContainer = "container:IMDTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C552D8761F6CC48400C3D520"
-            BuildableName = "IMD Global PSI.app"
-            BlueprintName = "IMD Global PSI"
+            BuildableName = "IMDTest.app"
+            BlueprintName = "IMDTest"
             ReferencedContainer = "container:IMDTest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C552D8761F6CC48400C3D520"
-            BuildableName = "IMD Global PSI.app"
-            BlueprintName = "IMD Global PSI"
+            BuildableName = "IMDTest.app"
+            BlueprintName = "IMDTest"
             ReferencedContainer = "container:IMDTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C552D8761F6CC48400C3D520"
-            BuildableName = "IMD Global PSI.app"
-            BlueprintName = "IMD Global PSI"
+            BuildableName = "IMDTest.app"
+            BlueprintName = "IMDTest"
             ReferencedContainer = "container:IMDTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

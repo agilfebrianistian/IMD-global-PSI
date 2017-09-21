@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (4.5.0)
+  - Charts (3.0.3):
+    - Charts/Core (= 3.0.3)
+  - Charts/Core (3.0.3)
+  - CircularSpinner (1.2.0)
+  - Moya (8.0.5):
+    - Moya/Core (= 8.0.5)
+  - Moya/Core (8.0.5):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Nimble (7.0.1)
+  - Quick (1.1.0)
+  - Result (3.2.3)
+  - SCLAlertView (0.7.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Charts
+  - CircularSpinner
+  - Moya
+  - Nimble
+  - Quick
+  - SCLAlertView
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Charts: bcde37724c161958c1438dd4883971fcb2d50c06
+  CircularSpinner: 80b8ee3eda59b66d20631d4ca7c7c83720931739
+  Moya: c37eec09a098ba9991b5a963b291fc5704bdb9ef
+  Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 945fd2851b47412342a86afd834f8c1053145237
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,89 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/agilfebrianistian/Desktop/IMDTest/IMDTest/NetworkProvider.swift",
+      "line": null,
+      "symbol": "ApiConstant",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/agilfebrianistian/Desktop/IMDTest/IMDTest/NetworkProvider.swift",
+      "line": 31,
+      "symbol": "ApiConstant",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/agilfebrianistian/Desktop/IMDTest/IMDTest/NetworkProvider.swift",
+      "line": 32,
+      "symbol": "ApiConstant.getPSIData",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/agilfebrianistian/Desktop/IMDTest/IMDTest/NetworkProvider.swift",
+      "line": 36,
+      "symbol": "ApiConstant.baseURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/agilfebrianistian/Desktop/IMDTest/IMDTest/NetworkProvider.swift",
+      "line": 37,
+      "symbol": "ApiConstant.path",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/agilfebrianistian/Desktop/IMDTest/IMDTest/NetworkProvider.swift",
+      "line": 44,
+      "symbol": "ApiConstant.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/agilfebrianistian/Desktop/IMDTest/IMDTest/NetworkProvider.swift",
+      "line": 51,
+      "symbol": "ApiConstant.parameters",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/agilfebrianistian/Desktop/IMDTest/IMDTest/NetworkProvider.swift",
+      "line": 58,
+      "symbol": "ApiConstant.parameterEncoding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/agilfebrianistian/Desktop/IMDTest/IMDTest/NetworkProvider.swift",
+      "line": 62,
+      "symbol": "ApiConstant.task",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/agilfebrianistian/Desktop/IMDTest/IMDTest/NetworkProvider.swift",
+      "line": 69,
+      "symbol": "ApiConstant.validate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/agilfebrianistian/Desktop/IMDTest/IMDTest/NetworkProvider.swift",
+      "line": 76,
+      "symbol": "ApiConstant.sampleData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/agilfebrianistian/Desktop/IMDTest/IMDTest/NetworkProvider.swift",
+      "line": 84,
+      "symbol": "url(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/agilfebrianistian/Desktop/IMDTest"
+}

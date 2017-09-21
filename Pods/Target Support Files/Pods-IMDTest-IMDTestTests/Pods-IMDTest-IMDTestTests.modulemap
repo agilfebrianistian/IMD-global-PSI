@@ -1,0 +1,6 @@
+framework module Pods_IMDTest_IMDTestTests {
+  umbrella header "Pods-IMDTest-IMDTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

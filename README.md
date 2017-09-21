@@ -32,8 +32,8 @@ IMD Global PSI is an application that shows PSI Singapore data in map and chart.
 
 ## Screen Shots
 
-![alt tag](https://raw.githubusercontent.com/agilfebrianistian/IMD-global-PSI/master/Screen%20Shot%20Details%20Page%201.png)
-
+![alt tag](https://github.com/agilfebrianistian/IMD-global-PSI/blob/master/Screen%20Shot%20Map%20Page%201.png)
+![alt tag](https://github.com/agilfebrianistian/IMD-global-PSI/blob/master/Screen%20Shot%20Map%20Page%202.png)
+![alt tag](https://github.com/agilfebrianistian/IMD-global-PSI/blob/master/Screen%20Shot%20Details%20Page%201.png)
 ![alt tag](https://github.com/agilfebrianistian/IMD-global-PSI/blob/master/Screen%20Shot%20Details%20Page%202.png)
 
-![alt tag](Screen Shot Map Page 1.png)

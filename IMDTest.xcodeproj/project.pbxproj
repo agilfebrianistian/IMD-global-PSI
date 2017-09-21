@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E0761884AD881A6582BA300 /* Pods_IMDTest_IMDTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EA10908D00BD8FE691399C /* Pods_IMDTest_IMDTestTests.framework */; };
 		7A9E9DFFA6AC16DB7AEE70FA /* Pods_IMDTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47F5C8A62BD5944D4A9F890 /* Pods_IMDTest.framework */; };
-		865057602FD9C69ABD054453 /* Pods_IMDTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C91CC74A11B185C511802CA /* Pods_IMDTestTests.framework */; };
+		86D0819B3B06432AE0609D2D /* Pods_IMDTest_IMDTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EA10908D00BD8FE691399C /* Pods_IMDTest_IMDTestTests.framework */; };
+		C5161A561F742EA6001556E5 /* IMDTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552D88F1F6CC48400C3D520 /* IMDTestTests.swift */; };
 		C552D87B1F6CC48400C3D520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552D87A1F6CC48400C3D520 /* AppDelegate.swift */; };
 		C552D87D1F6CC48400C3D520 /* PSIMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552D87C1F6CC48400C3D520 /* PSIMapVC.swift */; };
 		C552D8801F6CC48400C3D520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C552D87E1F6CC48400C3D520 /* Main.storyboard */; };
 		C552D8821F6CC48400C3D520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C552D8811F6CC48400C3D520 /* Assets.xcassets */; };
 		C552D8851F6CC48400C3D520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C552D8831F6CC48400C3D520 /* LaunchScreen.storyboard */; };
-		C552D8901F6CC48400C3D520 /* IMDTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552D88F1F6CC48400C3D520 /* IMDTestTests.swift */; };
 		C552D89F1F6CC82F00C3D520 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552D89E1F6CC82F00C3D520 /* NetworkProvider.swift */; };
 		C552D8A11F6CCC2100C3D520 /* RegionMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552D8A01F6CCC2100C3D520 /* RegionMetadata.swift */; };
 		C552D8A31F6CCD6500C3D520 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552D8A21F6CCD6500C3D520 /* Items.swift */; };
@@ -30,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C552D88C1F6CC48400C3D520 /* PBXContainerItemProxy */ = {
+		C5161A511F742E31001556E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C552D86F1F6CC48400C3D520 /* Project object */;
 			proxyType = 1;
@@ -46,6 +45,7 @@
 		8C91CC74A11B185C511802CA /* Pods_IMDTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15641CDE9874F0FF0BA3E9D /* Pods-IMDTest-IMDTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMDTest-IMDTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMDTest-IMDTestTests/Pods-IMDTest-IMDTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B47F5C8A62BD5944D4A9F890 /* Pods_IMDTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMDTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5161A4C1F742E31001556E5 /* IMDTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMDTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C552D8771F6CC48400C3D520 /* IMDTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMDTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C552D87A1F6CC48400C3D520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C552D87C1F6CC48400C3D520 /* PSIMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSIMapVC.swift; sourceTree = "<group>"; };
@@ -53,7 +53,6 @@
 		C552D8811F6CC48400C3D520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C552D8841F6CC48400C3D520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C552D8861F6CC48400C3D520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C552D88B1F6CC48400C3D520 /* IMDTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMDTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C552D88F1F6CC48400C3D520 /* IMDTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMDTestTests.swift; sourceTree = "<group>"; };
 		C552D8911F6CC48400C3D520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C552D89E1F6CC82F00C3D520 /* NetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
@@ -73,20 +72,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C5161A491F742E31001556E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D0819B3B06432AE0609D2D /* Pods_IMDTest_IMDTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C552D8741F6CC48400C3D520 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7A9E9DFFA6AC16DB7AEE70FA /* Pods_IMDTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C552D8881F6CC48400C3D520 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				865057602FD9C69ABD054453 /* Pods_IMDTestTests.framework in Frameworks */,
-				2E0761884AD881A6582BA300 /* Pods_IMDTest_IMDTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				C552D8771F6CC48400C3D520 /* IMDTest.app */,
-				C552D88B1F6CC48400C3D520 /* IMDTestTests.xctest */,
+				C5161A4C1F742E31001556E5 /* IMDTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,6 +210,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C5161A4B1F742E31001556E5 /* IMDTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5161A531F742E31001556E5 /* Build configuration list for PBXNativeTarget "IMDTestTests" */;
+			buildPhases = (
+				4C23C80705FCE01506B2C8EE /* [CP] Check Pods Manifest.lock */,
+				C5161A481F742E31001556E5 /* Sources */,
+				C5161A491F742E31001556E5 /* Frameworks */,
+				C5161A4A1F742E31001556E5 /* Resources */,
+				2B5C9371615568D60282E505 /* [CP] Embed Pods Frameworks */,
+				24B00D50D28B786765EB13EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5161A521F742E31001556E5 /* PBXTargetDependency */,
+			);
+			name = IMDTestTests;
+			productName = IMDTestTests;
+			productReference = C5161A4C1F742E31001556E5 /* IMDTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C552D8761F6CC48400C3D520 /* IMDTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C552D8941F6CC48400C3D520 /* Build configuration list for PBXNativeTarget "IMDTest" */;
@@ -232,27 +251,6 @@
 			productReference = C552D8771F6CC48400C3D520 /* IMDTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C552D88A1F6CC48400C3D520 /* IMDTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C552D8971F6CC48400C3D520 /* Build configuration list for PBXNativeTarget "IMDTestTests" */;
-			buildPhases = (
-				539CE6A3BAD9421779FFA3B8 /* [CP] Check Pods Manifest.lock */,
-				C552D8871F6CC48400C3D520 /* Sources */,
-				C552D8881F6CC48400C3D520 /* Frameworks */,
-				C552D8891F6CC48400C3D520 /* Resources */,
-				B8C30CCA92CF305CF7C0B9CA /* [CP] Embed Pods Frameworks */,
-				D0985F16D0645C0AEB03D707 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C552D88D1F6CC48400C3D520 /* PBXTargetDependency */,
-			);
-			name = IMDTestTests;
-			productName = IMDTestTests;
-			productReference = C552D88B1F6CC48400C3D520 /* IMDTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -263,14 +261,14 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Agil Febrianistian";
 				TargetAttributes = {
-					C552D8761F6CC48400C3D520 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-					};
-					C552D88A1F6CC48400C3D520 = {
+					C5161A4B1F742E31001556E5 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C552D8761F6CC48400C3D520;
+					};
+					C552D8761F6CC48400C3D520 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -288,12 +286,19 @@
 			projectRoot = "";
 			targets = (
 				C552D8761F6CC48400C3D520 /* IMDTest */,
-				C552D88A1F6CC48400C3D520 /* IMDTestTests */,
+				C5161A4B1F742E31001556E5 /* IMDTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C5161A4A1F742E31001556E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C552D8751F6CC48400C3D520 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,17 +310,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C552D8891F6CC48400C3D520 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		539CE6A3BAD9421779FFA3B8 /* [CP] Check Pods Manifest.lock */ = {
+		24B00D50D28B786765EB13EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMDTest-IMDTestTests/Pods-IMDTest-IMDTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B5C9371615568D60282E505 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IMDTest-IMDTestTests/Pods-IMDTest-IMDTestTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/CircularSpinner/CircularSpinner.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircularSpinner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMDTest-IMDTestTests/Pods-IMDTest-IMDTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C23C80705FCE01506B2C8EE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,55 +413,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B8C30CCA92CF305CF7C0B9CA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-IMDTest-IMDTestTests/Pods-IMDTest-IMDTestTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/CircularSpinner/CircularSpinner.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircularSpinner.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMDTest-IMDTestTests/Pods-IMDTest-IMDTestTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D0985F16D0645C0AEB03D707 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMDTest-IMDTestTests/Pods-IMDTest-IMDTestTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F7E5055AD4A373D2A83AC903 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -448,6 +446,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C5161A481F742E31001556E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5161A561F742EA6001556E5 /* IMDTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C552D8731F6CC48400C3D520 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -467,21 +473,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C552D8871F6CC48400C3D520 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C552D8901F6CC48400C3D520 /* IMDTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C552D88D1F6CC48400C3D520 /* PBXTargetDependency */ = {
+		C5161A521F742E31001556E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C552D8761F6CC48400C3D520 /* IMDTest */;
-			targetProxy = C552D88C1F6CC48400C3D520 /* PBXContainerItemProxy */;
+			targetProxy = C5161A511F742E31001556E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -505,6 +503,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C5161A541F742E31001556E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15641CDE9874F0FF0BA3E9D /* Pods-IMDTest-IMDTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IMDTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agil.IMDTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMDTest.app/IMDTest";
+			};
+			name = Debug;
+		};
+		C5161A551F742E31001556E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66A3D0B096DFC943F6A10D6 /* Pods-IMDTest-IMDTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IMDTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agil.IMDTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMDTest.app/IMDTest";
+			};
+			name = Release;
+		};
 		C552D8921F6CC48400C3D520 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -624,39 +650,17 @@
 			};
 			name = Release;
 		};
-		C552D8981F6CC48400C3D520 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B15641CDE9874F0FF0BA3E9D /* Pods-IMDTest-IMDTestTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = IMDTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.agil.IMDTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMDTest.app/IMDTest";
-			};
-			name = Debug;
-		};
-		C552D8991F6CC48400C3D520 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C66A3D0B096DFC943F6A10D6 /* Pods-IMDTest-IMDTestTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = IMDTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.agil.IMDTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMDTest.app/IMDTest";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C5161A531F742E31001556E5 /* Build configuration list for PBXNativeTarget "IMDTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5161A541F742E31001556E5 /* Debug */,
+				C5161A551F742E31001556E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C552D8721F6CC48400C3D520 /* Build configuration list for PBXProject "IMDTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -671,15 +675,6 @@
 			buildConfigurations = (
 				C552D8951F6CC48400C3D520 /* Debug */,
 				C552D8961F6CC48400C3D520 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C552D8971F6CC48400C3D520 /* Build configuration list for PBXNativeTarget "IMDTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C552D8981F6CC48400C3D520 /* Debug */,
-				C552D8991F6CC48400C3D520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
